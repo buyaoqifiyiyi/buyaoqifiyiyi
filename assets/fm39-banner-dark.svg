@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 250" width="100%" role="img" aria-label="FM 39.0 一一 (Yiyi) 全栈与 AI Agent 开发者电台横幅（深色主题）">
+  <defs>
+    <linearGradient id="bg-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09131c"/>
+      <stop offset="54%" stop-color="#0f222d"/>
+      <stop offset="100%" stop-color="#19162d"/>
+    </linearGradient>
+    <radialGradient id="orb-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb-neon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6fa8" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ff6fa8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent-grad-dark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#ff6fa8"/>
+    </linearGradient>
+    <linearGradient id="bar-grad-dark" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#ff6fa8"/>
+    </linearGradient>
+    <linearGradient id="wave-dark-a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#ff6fa8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.32"/>
+    </linearGradient>
+    <clipPath id="card-clip-dark">
+      <rect x="1" y="1" width="918" height="248" rx="20"/>
+    </clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei UI", "PingFang SC", "Noto Sans SC", sans-serif; }
+      .mono { font-family: ui-monospace, "Cascadia Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+      .bar { fill: url(#bar-grad-dark); will-change: transform; }
+      @keyframes onairPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+      @keyframes ringPing {
+        0% { transform: scale(0.8); opacity: 0.76; }
+        100% { transform: scale(2.35); opacity: 0; }
+      }
+      @keyframes eq1 { 0%, 100% { transform: scaleY(0.32); } 45% { transform: scaleY(0.95); } 75% { transform: scaleY(0.55); } }
+      @keyframes eq2 { 0%, 100% { transform: scaleY(0.75); } 35% { transform: scaleY(0.28); } 70% { transform: scaleY(1); } }
+      @keyframes eq3 { 0%, 100% { transform: scaleY(0.45); } 50% { transform: scaleY(0.92); } 80% { transform: scaleY(0.3); } }
+      @keyframes eq4 { 0%, 100% { transform: scaleY(0.88); } 40% { transform: scaleY(0.36); } 78% { transform: scaleY(0.76); } }
+      @keyframes waveA { from { transform: translateX(0); } to { transform: translateX(-460px); } }
+      @keyframes waveB { from { transform: translateX(-460px); } to { transform: translateX(0); } }
+      @keyframes floatSoft { 0%, 100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(-6px) rotate(12deg); } }
+      .onair-dot { animation: onairPulse 2s ease-in-out infinite; }
+      .onair-ring { transform-origin: 47px 36px; animation: ringPing 2.1s cubic-bezier(0, 0, 0.2, 1) infinite; }
+      .wave-drift-a { animation: waveA 13s linear infinite; }
+      .wave-drift-b { animation: waveB 18s linear infinite; }
+      .spark-1 { transform-origin: 552px 58px; animation: floatSoft 5.4s ease-in-out infinite; }
+      .spark-2 { transform-origin: 582px 142px; animation: floatSoft 6.6s ease-in-out -2.2s infinite; }
+      .spark-3 { transform-origin: 526px 226px; animation: floatSoft 5.9s ease-in-out -3.8s infinite; }
+      #db1 { transform-origin: 637px 192px; animation: eq1 1.35s ease-in-out infinite; }
+      #db2 { transform-origin: 654px 192px; animation: eq2 1.15s ease-in-out -0.2s infinite; }
+      #db3 { transform-origin: 671px 192px; animation: eq3 1.45s ease-in-out -0.5s infinite; }
+      #db4 { transform-origin: 688px 192px; animation: eq4 1.25s ease-in-out -0.1s infinite; }
+      #db5 { transform-origin: 705px 192px; animation: eq1 1.5s ease-in-out -0.7s infinite; }
+      #db6 { transform-origin: 722px 192px; animation: eq2 1.2s ease-in-out -0.4s infinite; }
+      #db7 { transform-origin: 739px 192px; animation: eq3 1.3s ease-in-out -0.9s infinite; }
+      #db8 { transform-origin: 756px 192px; animation: eq4 1.4s ease-in-out -0.3s infinite; }
+      #db9 { transform-origin: 773px 192px; animation: eq1 1.18s ease-in-out -0.6s infinite; }
+      #db10 { transform-origin: 790px 192px; animation: eq2 1.42s ease-in-out -0.8s infinite; }
+      #db11 { transform-origin: 807px 192px; animation: eq3 1.22s ease-in-out -0.25s infinite; }
+      #db12 { transform-origin: 824px 192px; animation: eq4 1.48s ease-in-out -0.55s infinite; }
+      #db13 { transform-origin: 841px 192px; animation: eq1 1.28s ease-in-out -0.35s infinite; }
+      #db14 { transform-origin: 858px 192px; animation: eq2 1.38s ease-in-out -0.75s infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card-clip-dark)">
+    <rect x="1" y="1" width="918" height="248" rx="20" fill="url(#bg-dark)"/>
+    <circle cx="780" cy="70" r="220" fill="url(#orb-cyan)"/>
+    <circle cx="170" cy="215" r="200" fill="url(#orb-neon)"/>
+
+    <!-- Subtle grid hairline -->
+    <g stroke="#2dd4bf" stroke-opacity="0.08" stroke-width="1">
+      <line x1="0" y1="62" x2="920" y2="62"/>
+      <line x1="0" y1="186" x2="920" y2="186"/>
+      <line x1="582" y1="0" x2="582" y2="250"/>
+    </g>
+
+    <!-- CV01-inspired 01 architectural watermark -->
+    <g transform="translate(490, 26)" opacity="0.14" fill="none" stroke="#2dd4bf" stroke-width="1.8">
+      <path fill-rule="evenodd" d="M8 14H56Q62 14 62 20V74Q62 80 56 80H8Q2 80 2 74V20Q2 14 8 14ZM20 28Q18 28 18 30V64Q18 66 20 66H44Q46 66 46 64V30Q46 28 44 28Z"/>
+      <path d="M78 14H112Q116 14 116 18V80H99V29H71V22Z"/>
+      <rect x="2" y="88" width="114" height="5" rx="2" fill="#ff6fa8" stroke="none"/>
+    </g>
+
+    <!-- Flowing bottom radio soundwaves (exact 460px seamless loop) -->
+    <path class="wave-drift-a" fill="none" stroke="url(#wave-dark-a)" stroke-width="2"
+      d="M-460 228 Q-345 210 -230 228 T0 228 T230 228 T460 228 T690 228 T920 228 T1150 228 T1380 228"/>
+    <path class="wave-drift-b" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.5"
+      d="M-460 235 Q-345 247 -230 235 T0 235 T230 235 T460 235 T690 235 T920 235 T1150 235 T1380 235"/>
+
+    <!-- Top left ON AIR bar -->
+    <circle class="onair-ring" cx="47" cy="36" r="6" fill="none" stroke="#ff6fa8" stroke-width="1.6"/>
+    <circle class="onair-dot" cx="47" cy="36" r="4" fill="#ff6fa8"/>
+    <text x="62" y="40" class="mono" font-size="11" font-weight="700" letter-spacing="1.6" fill="#9bc9c3">ON AIR · FM 39.0 MHz · YIYI PERSONAL FREQUENCY</text>
+
+    <!-- Main Identity -->
+    <text x="40" y="96" class="sans" font-size="34" font-weight="800" fill="#f1fcfa" letter-spacing="0.4">一一 · Yiyi</text>
+    <rect x="244" y="70" width="184" height="27" rx="13.5" fill="url(#accent-grad-dark)"/>
+    <text x="336" y="87.5" text-anchor="middle" class="mono" font-size="10.5" font-weight="800" letter-spacing="0.9" fill="#09131c">FULL-STACK &amp; AI AGENT</text>
+
+    <!-- Taglines -->
+    <text x="40" y="130" class="sans" font-size="15" font-weight="700" fill="#d7f3ef">原生 Web / Node.js · Python MCP · 多宿主 Agent 工具链</text>
+    <text x="40" y="156" class="sans" font-size="12.5" font-weight="500" fill="#90b8b3">白天打磨低依赖全栈与 Agent 工程，余暇自研 2.5D 看板娘与同人影像</text>
+
+    <!-- Quick station pills -->
+    <g>
+      <rect x="40" y="180" width="114" height="30" rx="15" fill="#102531" fill-opacity="0.88" stroke="#2dd4bf" stroke-opacity="0.34"/>
+      <text x="97" y="199" text-anchor="middle" class="sans" font-size="11.5" font-weight="700" fill="#d8faf5">MCP 异步引擎</text>
+
+      <rect x="164" y="180" width="128" height="30" rx="15" fill="#102531" fill-opacity="0.88" stroke="#ff6fa8" stroke-opacity="0.36"/>
+      <text x="228" y="199" text-anchor="middle" class="sans" font-size="11.5" font-weight="700" fill="#ffd9e8">Codex 实时监测</text>
+
+      <rect x="302" y="180" width="132" height="30" rx="15" fill="#102531" fill-opacity="0.88" stroke="#2dd4bf" stroke-opacity="0.34"/>
+      <text x="368" y="199" text-anchor="middle" class="sans" font-size="11.5" font-weight="700" fill="#d8faf5">2.5D 舞台 · 音游</text>
+
+      <rect x="444" y="180" width="110" height="30" rx="15" fill="#2dd4bf"/>
+      <text x="499" y="199" text-anchor="middle" class="mono" font-size="11.5" font-weight="800" fill="#08151d">miting.me ↗</text>
+    </g>
+
+    <!-- Decorative sparks -->
+    <path class="spark-1" d="M552 50 L554 56 L560 58 L554 60 L552 66 L550 60 L544 58 L550 56 Z" fill="#2dd4bf" fill-opacity="0.65"/>
+    <path class="spark-2" d="M582 134 L584 140 L590 142 L584 144 L582 150 L580 144 L574 142 L580 140 Z" fill="#ff6fa8" fill-opacity="0.60"/>
+    <circle class="spark-3" cx="526" cy="226" r="3" fill="#ffe27a" fill-opacity="0.55"/>
+
+    <!-- Right FM 39.0 Tuner / Equalizer Card -->
+    <rect x="610" y="30" width="276" height="188" rx="18" fill="#0b1822" fill-opacity="0.78" stroke="#2dd4bf" stroke-opacity="0.30"/>
+    <circle cx="634" cy="51" r="3.5" fill="#5fe3b0"/>
+    <text x="644" y="54.5" class="mono" font-size="10" font-weight="700" letter-spacing="1.1" fill="#5fe3b0">SIGNAL LOCKED</text>
+
+    <rect x="802" y="40" width="66" height="21" rx="10.5" fill="#ff6fa8" fill-opacity="0.16" stroke="#ff6fa8" stroke-opacity="0.40"/>
+    <text x="835" y="54" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#ff8fbd">NIGHT</text>
+
+    <text x="630" y="99" class="mono" font-size="35" font-weight="800" fill="#2dd4bf" letter-spacing="-0.8">39.0</text>
+    <text x="722" y="99" class="mono" font-size="13" font-weight="700" fill="#9bc9c3">MHz</text>
+    <text x="631" y="118" class="mono" font-size="10" font-weight="600" letter-spacing="0.9" fill="#9bc9c3">FOUR SEASONS 2.5D · ACTIVE</text>
+
+    <line x1="631" y1="130" x2="866" y2="130" stroke="#2dd4bf" stroke-opacity="0.22" stroke-dasharray="3 4"/>
+
+    <!-- 14 Equalizer Bars (baseline y=192) -->
+    <g>
+      <rect id="db1" class="bar" x="632" y="148" width="10" height="44" rx="5"/>
+      <rect id="db2" class="bar" x="649" y="140" width="10" height="52" rx="5"/>
+      <rect id="db3" class="bar" x="666" y="152" width="10" height="40" rx="5"/>
+      <rect id="db4" class="bar" x="683" y="138" width="10" height="54" rx="5"/>
+      <rect id="db5" class="bar" x="700" y="144" width="10" height="48" rx="5"/>
+      <rect id="db6" class="bar" x="717" y="136" width="10" height="56" rx="5"/>
+      <rect id="db7" class="bar" x="734" y="150" width="10" height="42" rx="5"/>
+      <rect id="db8" class="bar" x="751" y="140" width="10" height="52" rx="5"/>
+      <rect id="db9" class="bar" x="768" y="146" width="10" height="46" rx="5"/>
+      <rect id="db10" class="bar" x="785" y="137" width="10" height="55" rx="5"/>
+      <rect id="db11" class="bar" x="802" y="148" width="10" height="44" rx="5"/>
+      <rect id="db12" class="bar" x="819" y="141" width="10" height="51" rx="5"/>
+      <rect id="db13" class="bar" x="836" y="150" width="10" height="42" rx="5"/>
+      <rect id="db14" class="bar" x="853" y="144" width="10" height="48" rx="5"/>
+    </g>
+    <line x1="631" y1="192" x2="866" y2="192" stroke="#2dd4bf" stroke-opacity="0.38" stroke-width="1.2"/>
+    <text x="631" y="207" class="mono" font-size="9" font-weight="600" fill="#9bc9c3" letter-spacing="1">39.0</text>
+    <text x="748" y="207" text-anchor="middle" class="mono" font-size="9" font-weight="600" fill="#ff8fbd" letter-spacing="1">39.39 LIVE</text>
+    <text x="866" y="207" text-anchor="end" class="mono" font-size="9" font-weight="600" fill="#9bc9c3" letter-spacing="1">39.9</text>
+  </g>
+
+  <rect x="1" y="1" width="918" height="248" rx="20" fill="none" stroke="#2dd4bf" stroke-opacity="0.28" stroke-width="1.2"/>
+</svg>
